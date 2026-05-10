@@ -17,6 +17,10 @@ class Dispositivo:
     def status(self):
         estado = "ON" if self.estado else "OFF"
         return f"{self.nombre}: {estado}"
+    
+    def status(self):
+        estado = "ON" if self.estado else "OFF"
+        return f"{self.nombre}: {estado}"
 
     def configurar(self, *args):
         if len(args) == 1:
